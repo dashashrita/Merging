@@ -4,9 +4,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Building the application...'
+                echo 'Building the application1.0'
                 // Example build command
-                sh 'mvn clean install'
+                sh 'Change to my mvn deploy'
             }
         }
 
